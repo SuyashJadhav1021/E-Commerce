@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.black-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.background {
+  background: rgb(247, 238, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 238, 237, 1) 0%,
+    rgba(245, 243, 243, 1) 0%,
+    rgba(208, 202, 202, 1) 100%
+  );
+}
+
+.offer {
+  background: rgb(247, 238, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 238, 237, 1) 0%,
+    rgba(255, 220, 220, 1) 0%,
+    rgba(241, 121, 121, 1) 100%
+  );
+}
+
+.active {
+  border-bottom: 2px solid green;
+  padding-bottom: 2px;
+}
+
+.main-format {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 17px;
+  font-weight: 600;
+}
